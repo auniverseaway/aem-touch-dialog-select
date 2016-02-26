@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:jcr="http://www.jcp.org/jcr/1.0"
+    jcr:primaryType="cq:Dialog"
+    helpPath="en/cq/current/wcm/default_components.html#Text"
+    title="Dynamic Dialog"
+    xtype="tabpanel">
+    <items jcr:primaryType="cq:WidgetCollection">
+        <tab1
+            jcr:primaryType="cq:Panel"
+            title="Layout">
+            <items jcr:primaryType="cq:WidgetCollection">
+                <label
+                    jcr:primaryType="cq:Widget"
+                    text="Please use Touch UI to configure this component."
+                    name="./label"
+                    rootPath="/"
+                    xtype="label"/>
+            </items>
+        </tab1>
+    </items>
+</jcr:root>
