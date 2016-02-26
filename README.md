@@ -2,6 +2,8 @@
 
 This project adds the ability to use a dynamic datasource within AEM Granite (Touch) dialogs.
 
+![Dynamic Select](https://raw.githubusercontent.com/auniverseaway/aem-touch-dialog-select/master/assets/thumbnail.png)
+
 ##There are two components to achieve this.
 
 1. datasource component - This component / rescoureType is designed to be very generic in nature. This is all the logic you need.
